@@ -23,3 +23,10 @@ what is data model in Marketing cloud ?
                                           Affiliation
                                           Purchase history
                                           Communication topic preferences
+        
+                                    Data Extensions can point to other Data Extensions that hold even more information. These are called relational Data Extensions.
+                                    Data Extensions are typically defined as Sendable and/or Testable. Sendable can be used for sending emails. Testable can be used for testing emails. A Data Extension can be both, either, or neither.
+                                    Using Data Extensions gives you the ability to use Publication Lists (different from Lists described above) to manage unsubscribes in a granular manner.
+      
+      - Disadvange of Data Extension - They’re a little more work to set up—Data Extensions require more configuration and planning.
+                                       No welcome email or double opt-in options.
